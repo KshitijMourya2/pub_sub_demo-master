@@ -30,7 +30,7 @@ config :logger, :console,
 # Send emails using Sendgrid
 config :pub_sub_demo, PubSubDemo.Mailer,
   adapter: Bamboo.SendgridAdapter,
-  api_key: "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"
+  api_key: ""
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
